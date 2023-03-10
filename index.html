@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Color Picker</title>
+        <link rel="icon" type="image/x-icon" href="favicon.ico">
+        <link href="index.css" rel="stylesheet"/>
+        <script type="text/javascript" src="index.js"></script>
+        <script src="https://kit.fontawesome.com/73ee127a71.js" crossorigin="anonymous"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital@0;1&display=swap" rel="stylesheet">
+
+    </head>
+
+    <body id="bgdColor">
+
+        <div class="gridOutline">
+            <div class="grid">
+                <div class="square">
+                    <div class="c1 pointCursor dblBorder" onclick="clrChange(0)"></div>
+                </div>
+            </div>
+
+            <div class="grid">
+                <div class="square">
+                    <div class="c2 pointCursor dblBorder" onclick="clrChange(1)"></div>
+                </div>
+            </div>
+            
+            <div class="grid">
+                <div class="square">
+                    <div class="c3 pointCursor sglBorder" onclick="clrChange(2)"></div>
+                </div>
+            </div>
+            
+            <div class="grid">
+                <div class="square">
+                    <div class="c4 pointCursor dtdBorder" onclick="clrChange(3)"></div>
+                </div>
+            </div>
+            
+            <div class="grid">
+                <div class="square">
+                    <div class="c5 pointCursor sglBorder" onclick="clrChange(4)"></div>
+                </div>
+            </div>
+            
+            <div class="grid">
+                <div class="square">
+                    <div class="c6 pointCursor dtdBorder" onclick="clrChange(5)"></div>
+                </div>
+            </div>
+            
+            <div class="grid">
+                <div class="square">
+                    <div class="c7 pointCursor sglBorder" onclick="clrChange(6)"></div>
+                </div>
+            </div>
+
+            <div class="grid">
+                <div class="square">
+                    <div class="c8 pointCursor dblBorder" onclick="clrChange(7)"></div>
+                </div>
+            </div>
+
+            <div class="grid">
+                <div class="square">
+                    <div class="c9 pointCursor dtdBorder" onclick="clrChange(8)"></div>
+                </div>
+            </div>
+        
+            <div class=refreshDiv><i class="fa-solid fa-arrow-rotate-right refreshBtn" onclick="reset()"></i></div>
+            <div class="instruction" id="instructGone">click on a circle</div>
+    
+        </div>
+
+
+    </body>
+
+
+</html>
